@@ -6,16 +6,19 @@
 </head>
 
 <body>
+<h1>Is It Friday?</h1>
 <?php
 
   date_default_timezone_set("CST6CDT");
-  if ( getdate()["weekday"] == "Friday" )
+  $currentDay = getdate()["weekday"];
+  if ( $currentDay == "Friday" )
   { // It's Friday
     echo "YES!!! \n";
   }
   else 
   {
-    echo "No. <br>\n";
+    echo "No <br>" .
+         "\$currentDay = " . $currentDay . "\n";
   }
 
 ?>
