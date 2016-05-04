@@ -2,13 +2,13 @@
   date_default_timezone_set("CST6CDT");
   $currentDay = getdate()["weekday"];
 
-if(defined('STDIN') )
-{
-  echo "Today is...\n";
-  sleep(1);
-  echo "$currentDay.\n";
-  exit();
-}
+  if(defined('STDIN') )
+  {
+    echo "Today is...\n";
+    sleep(1);
+    echo "$currentDay.\n";
+    exit();
+  }
 
 ?>
 <!DOCTYPE html>
