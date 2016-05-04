@@ -1,7 +1,7 @@
 AddDefaultCharset UTF-8
 AddLanguage en-US .html .htm .css .js
 
-IndexIgnore .??* *~ *# HEADER* README* RCS CVS *,v *,t
+IndexIgnore .??* *~ *# HEADER* RCS CVS *,v *,t
 IndexIgnore .nojekyll .git cgi-bin
 	# HIDE /theme DIRECTORY
 	IndexIgnore .htaccess /theme
