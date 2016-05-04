@@ -11,7 +11,7 @@ if(defined('STDIN') )
 }
 else
 
-  echo("<!--Not Running from CLI-->");
+  // echo("<!--Not Running from CLI-->");
 
 ?>
 <!DOCTYPE html>
