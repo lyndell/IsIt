@@ -1,3 +1,19 @@
+<?php
+  date_default_timezone_set("CST6CDT");
+  $currentDay = getdate()["weekday"];
+
+if(defined('STDIN') )
+{
+  echo "Today is...\n";
+  sleep(1);
+  echo "$currentDay.\n";
+  exit();
+}
+else
+
+  echo("<!--Not Running from CLI-->");
+
+?>
 <!DOCTYPE html>
 <html>
 <head>
