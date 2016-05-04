@@ -2,7 +2,7 @@
 <html>
 <head>
 <meta charset="UTF-8">
-<title>Is It Friday</title>
+<title>Is It Friday?</title>
 </head>
 
 <body>
@@ -17,8 +17,8 @@
   }
   else 
   {
-    echo "No <br>" .
-         "\$currentDay = " . $currentDay . "\n";
+    echo "No, <p>\n" .
+         "Today is " . $currentDay . ".\n";
   }
 
 ?>
