@@ -9,9 +9,6 @@ if(defined('STDIN') )
   echo "$currentDay.\n";
   exit();
 }
-else
-
-  // echo("<!--Not Running from CLI-->");
 
 ?>
 <!DOCTYPE html>
