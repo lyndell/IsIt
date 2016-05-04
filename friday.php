@@ -13,7 +13,8 @@
   $currentDay = getdate()["weekday"];
   if ( $currentDay == "Friday" )
   { // It's Friday
-    echo "YES!!! \n";
+    echo "<h2>YES!!!</h2> \n";
+    echo '<iframe width="560" height="315" src="https://www.youtube.com/embed/kfVsfOSbJY0" frameborder="0" allowfullscreen></iframe>' . "\n";
   }
   else 
   {
